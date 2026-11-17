@@ -8,7 +8,8 @@ function AddUser() {
     const [email, setEmail] = useState("");
     const dispatch = useDispatch();
     const navigate = useNavigate()
-    const handleClick = () => {
+    const handleClick = (e) => {
+        e.preventDefault()
         dispatch(addUserAction({
             id:count+1,
             name:name,
@@ -17,12 +18,12 @@ function AddUser() {
         navigate('/')
     }
     return (
-        <form>
+        <form onSubmit={handleClick}>
             <label>Name</label>
             <input type="text" value={name} onChange={(e)=>setName(e.target.value)} />
             <label>Email</label>
             <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} />
-            <button onClick={handleClick}>Enregistrer</button>
+            <button>Enregistrer</button>
         </form>
     )
 }

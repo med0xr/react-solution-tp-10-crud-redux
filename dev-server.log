@@ -1,0 +1,15 @@
+
+> tp-10-crud-redux@0.1.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v8.3.7[39m  [2mready in [0m[1m548[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m4:11:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/Config/reducer.js[22m
+[2m4:11:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/Composants/AddUser.jsx[22m
+[2m4:11:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/Composants/AddUser.jsx[22m
+[2m4:11:39 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/Composants/UpdateUser.jsx[22m
+[2m4:11:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/Composants/UpdateUser.jsx[22m

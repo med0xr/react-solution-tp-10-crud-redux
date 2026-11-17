@@ -6,7 +6,7 @@ import UserList from './Composants/UserList';
 function App() {
   return (
     <div style={{paddingLeft:40}}>
-      <h1>CRUD REACT-REDUX Example 1</h1>
+      <h1>CRUD REACT</h1>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<UserList />} />

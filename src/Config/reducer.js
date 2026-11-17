@@ -9,12 +9,9 @@ const reducer = (state=initialState, action) => {
         case "Add_user":
             return {...state, users:[...state.users, action.payload]}
         case "Update_user":
-            const user = state.users.find((u)=>u.id===parseInt(action.payload.id))
-            if (user) {
-                user.name = action.payload.name
-                user.email = action.payload.email
-            }
-            return state
+            return {...state, users: state.users.map((u)=>u.id===parseInt(action.payload.id)
+                ? {...u, name: action.payload.name, email: action.payload.email}
+                : u)}
         case "Delete_user":
             return {...state, users:[...state.users.filter((u)=>u.id!==parseInt(action.payload))]}
         default:
